@@ -5,7 +5,7 @@
   "main": "./src/Main.java",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build" : "rm -r ./dist/* & javac -cp ./src -d ./dist ./src/Main.java",
+    "build" : "rm -r ./dist/* & javac -cp ./src ./src/* -d ./dist ./src/Main.java",
     "run" : "java -cp ./dist Main",
     "start" : "npm run build & npm run run"
   },
