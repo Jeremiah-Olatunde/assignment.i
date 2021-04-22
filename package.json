@@ -1,0 +1,26 @@
+{
+  "name": "assignment.i",
+  "version": "1.0.0",
+  "description": "Java Assignment ",
+  "main": "./src/Main.java",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" : "rm -r ./dist/* & javac -cp ./src -d ./dist ./src/Main.java",
+    "run" : "java -cp ./dist Main",
+    "start" : "npm run build & npm run run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeremiah-Olatunde/assignment.i.git"
+  },
+  "keywords": [
+    "Java",
+    "Assignment"
+  ],
+  "author": "Jesuseun Jeremiah Olatunde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jeremiah-Olatunde/assignment.i/issues"
+  },
+  "homepage": "https://github.com/Jeremiah-Olatunde/assignment.i#readme"
+}
