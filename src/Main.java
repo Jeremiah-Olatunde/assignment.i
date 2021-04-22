@@ -1,6 +1,7 @@
 
 public class Main{
 	public static void main( String[] args ){
-		final Question1 quest1 = new Question1(true);
+		final Question1 quest1 = new Question1(false);
+		final Question2 quest2 = new Question2(false);
 	}
 }
