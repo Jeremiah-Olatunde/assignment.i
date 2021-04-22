@@ -8,7 +8,8 @@ public class Main{
 		final Question4 quest4 = new Question4(false);
 		final Question5 quest5 = new Question5(false);
 		final Question6 quest6 = new Question6(false);
-		final Question10 quest10 = new Question10(true);
+		final Question10 quest10 = new Question10(false);
+		final Question12 quest12 = new Question12(true);
 
 	}
 }
