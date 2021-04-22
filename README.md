@@ -3,14 +3,14 @@
 ### JESUSEUN JEREMIAH OLATUNDE - 181203040 
 
 ### USAGE
-* Each answer is seperated into its own class file named after the question it answers
-* Each Question class has an **_answer_** method contained the answer to the question
-* The **_answer_** method gets called if true is passed into the constructor
+* Each answer is seperated into its own class file named after the question it answers.
+* Each Question class has an **_answer_** method containing the answer to the question it answers.
+* The **_answer_** method gets called if true is passed into the constructor.
 * Compile commands
 	* javac -cp ./src -d ./dist ./src/Main.py 
 	* java -cp ./dist Main
 
-#### Questions Answered
+### QUESTIONS ANSWERED
 **_NOTE_** : Click on links to go to answer code
 * [Question 1](https://github.com/Jeremiah-Olatunde/assignment.i/blob/master/src/Question1.java)
 * [Question 2](https://github.com/Jeremiah-Olatunde/assignment.i/blob/master/src/Question2.java)
